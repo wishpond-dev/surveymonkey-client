@@ -1,0 +1,12 @@
+{
+  "status":0,
+  "data":{
+    "user_details":{
+      "username":"wishpond",
+      "account_type":"basic",
+      "is_paid_account":false,
+      "user_id":82337345,
+      "is_enterprise_user":false
+    }
+  }
+}

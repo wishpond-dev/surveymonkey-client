@@ -1,0 +1,21 @@
+{
+  "status":0,
+  "data":{
+    "surveys":[
+      {
+        "title":"No email responses",
+        "survey_id":"68537783"
+      },
+      {
+        "title":"Respondents with emails",
+        "survey_id":"68535334"
+      },
+      {
+        "title":"With u0026 without emails",
+        "survey_id":"68472556"
+      }
+    ],
+    "page":1,
+    "page_size":1000
+  }
+}
