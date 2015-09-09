@@ -19,8 +19,23 @@ Or install it yourself as:
     $ gem install surveymonkey-client
 
 ## Usage
+Authentication:
 
-TODO: Write usage instructions here
+```ruby
+surveymonkey = Surveymonkey::Client.new(api_key, access_token)
+```
+
+To retrieve all surveys:
+
+```ruby
+surveys = surveymonkey.surveys
+```
+
+To retrieve respondents:
+
+```ruby
+respondents = surveymonkey.respondents(survey_id)
+```
 
 ## Development
 
