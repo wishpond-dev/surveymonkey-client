@@ -27,6 +27,11 @@ module Surveymonkey
       get_request("surveys/get_respondent_list", options, body)
     end
 
+    def survey_responses(survey_id, respondent_ids, options = "")
+      body = {:survey_id => survey_id, :respondent_ids => respondent_ids}.to_json
+      get_request("surveys/get_responses", options, body)
+    end
+
     private
 
     def uri_generator(endpoint, options = "")
